@@ -1,0 +1,79 @@
+/* Styles for the navbar */
+.navbar {
+  background-color:teal;
+  height: 60px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+.container {
+  margin-top: 20px
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+/* Styles for the footer */
+.footer {
+  background-color:teal;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input[type="text"]{
+  border-color: lightcoral;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button[type="submit"] {
+  background-color: rgb(34, 233, 233);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+.ds{
+  width: 30%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding-left: 20px;
+  padding-right: 30px;
+}
